@@ -1,0 +1,146 @@
+body{
+    font-family: 'IBM Plex Sans',Arial,sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 18px;
+    color: #4a4a4a;
+    background-color: #fff;
+}
+.bg-mygreen{
+
+    background:#025157 ;
+    color: white;
+}
+.start{
+    color: #025157;
+    font-size: 18px;
+}
+
+.navbar-nav{
+    justify-content: space-around;
+    width: 60%;
+}
+.bg-mygreen2{
+    background:#67b54b ;
+    color: white;
+}
+h1{
+    font-family: vesterbroextrabold,Arial,sans-serif;
+    font-weight: 400!important;
+    line-height: 63px;
+    font-size: 64px;
+    text-align: left;
+    letter-spacing: -3px;
+    color: #025157;
+    max-width: 560px;
+    margin-bottom: 24px;
+}
+.free-trial{
+    font-size: 12px;
+}
+    
+.logos{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+.logos-img{
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.cards{
+
+    padding: 200px;
+}
+.title{
+    display: block;
+    text-align: center;
+}
+h2{
+    display: block;
+    text-align: center;
+    font-size: 55px;
+    color: #025157;
+}
+.card-deck{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.card-img-top{
+
+    -webkit-transition: 1.5s ease;
+}
+.card-img-top:hover{
+    /* -webkit-transform: scale(1.8); 
+    -moz-transform: scale(1.8);
+    -o-transform: scale(1.8);
+    transform: scale(1.8);  
+    width: 350px;
+    height: 200px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out; */
+
+    -webkit-transform : scale(1.07);
+
+}
+.icon{
+    margin-left: 33%;
+    margin-top: 33%;
+   
+}
+.icons{
+
+    font-size: 40px;
+}
+tbody{
+    font-family: 'IBM Plex Sans',Arial,sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 18px;
+    color: #4a4a4a;
+    
+}
+
+.table-title{
+    font-size: 30px;
+    color: #025157;
+}
+
+.table{
+
+    display: inline-block;
+    align-items: center;
+}
+
+.card-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: .5rem;
+    width: 100%;
+}
+
+
+
+
+@media (max-width: 600px){
+    .title{
+       display: block;
+        width: 600%;
+        margin-left: -130px;
+    }
+    .card-4 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: .5rem;
+        width: 100%;
+    }
+    .logos-img{
+        display: block;
+    }
+}
